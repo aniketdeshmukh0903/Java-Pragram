@@ -1,0 +1,13 @@
+package com.sanket;
+import java.util.Arrays;
+public class ArraySort {
+
+	public static void main(String[] args) {
+	
+		int a[] = {10,30,20,50,40};
+		System.out.println("Arrays Before Sorting:" +Arrays.toString(a));
+		
+
+	}
+
+}

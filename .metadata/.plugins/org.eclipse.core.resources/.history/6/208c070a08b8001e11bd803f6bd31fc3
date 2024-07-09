@@ -1,0 +1,15 @@
+package com.sanket;
+import java.util.Arrays;
+public class ArraySort {
+
+	public static void main(String[] args) {
+	
+		Integer a[] = {10,30,20,50,40};
+		System.out.println("Arrays Before Sorting:" +Arrays.toString(a));
+		Arrays.sort(a);
+		System.out.println("Arrays After Sorting:" +Arrays.toString(a));
+		Arrays.sort(a,Collections.reverseOrder());
+		System.out.println("Arrays After Sorting:" +Arrays.toString(a));
+	}
+
+}
